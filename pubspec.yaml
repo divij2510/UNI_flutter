@@ -14,6 +14,8 @@ dependencies:
   permission_handler: ^10.4.3
   shared_preferences: ^2.0.8
   contacts_service: ^0.6.3
+  url_launcher: ^6.1.6
+  http: ^0.13.3
 
 dev_dependencies:
   flutter_test:
@@ -22,4 +24,13 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+  assets:
+    - lib/assets/images/
   uses-material-design: true
+  fonts:
+   - family: Barlow
+     fonts:
+       - asset: build/flutter_assets/fonts/Barlow-Regular.ttf
+   - family: Quicksand
+     fonts:
+       - asset: build/flutter_assets/fonts/Quicksand-Regular.ttf
